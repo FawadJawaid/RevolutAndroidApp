@@ -67,7 +67,7 @@ dependencies {
     implementation "org.koin:koin-android-viewmodel:2.0.1"
     implementation "org.koin:koin-java:2.0.1"
 
-    //Instrumentation, Unit & UI testing
+    //Instrumentation & UI testing
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
@@ -78,4 +78,11 @@ dependencies {
     testImplementation "org.mockito:mockito-inline:2.21.0"
     androidTestImplementation "io.kotlintest:kotlintest:2.0.7"
     androidTestImplementation ("org.koin:koin-test:2.0.1") { exclude group: 'org.mockito'}
+
+    // unit testing
+    testImplementation "org.mockito:mockito-inline:2.21.0"
+    testImplementation "com.nhaarman:mockito-kotlin:1.5.0"
+    testImplementation "androidx.arch.core:core-testing:2.1.0"
+    testImplementation "org.assertj:assertj-core:3.10.0"
+    testImplementation "io.kotlintest:kotlintest:2.0.7"
 }

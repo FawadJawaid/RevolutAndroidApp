@@ -45,7 +45,7 @@ class MainPresenter(private val webService: RatesService, private val dao: Rates
 
     // Loading data from the database with for recurring emissions.
     @SuppressLint("CheckResult")
-    private fun loadFromDB() {
+    fun loadFromDB() {
         view.loadingStarted()
         Observable.defer {
             getRecurringEmission(dao.retrieveRates())
