@@ -7,7 +7,7 @@ This is the currency converter android app which has been designed for according
 
 **Email:** muhammad.fawadjawaid@gmail.com
 
-#### General Information
+### General Information
 I have created the Splash Screen which shows the Revolut logo. Even the app icon is using the Revolut logo. Moreover, the app has also been named as Revolut.
 
 ### Implementation
@@ -20,4 +20,5 @@ https://developer.android.com/jetpack/docs/guide#recommended-app-arch
 ### Testing
 I have also written Integration test to check whether data is being loaded in the RecyclerView. This test case can be seen in *MainActivityTest* file.
 
-![Splash Screen](https://github.com/FawadJawaid/RevolutAndroidApp/blob/master/Screenshot_20191117-184538_Revolut.jpg =250x250)
+### Screenshots
+<img src="https://github.com/FawadJawaid/RevolutAndroidApp/blob/master/Screenshot_20191117-184538_Revolut.jpg" width="350">     <img src="https://github.com/FawadJawaid/RevolutAndroidApp/blob/master/Screenshot_20191117-184532_Revolut.jpg" width="350">
