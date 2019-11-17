@@ -20,3 +20,4 @@ https://developer.android.com/jetpack/docs/guide#recommended-app-arch
 ### Testing
 I have also written Integration test to check whether data is being loaded in the RecyclerView. This test case can be seen in *MainActivityTest* file.
 
+![Splash Screen](https://github.com/FawadJawaid/RevolutAndroidApp/blob/master/Screenshot_20191117-184538_Revolut.jpg =250x250)
