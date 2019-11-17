@@ -47,40 +47,5 @@
         android:maxWidth="128dp"
         android:minWidth="64dp"
         />
-    <!--
-        android:inputType="numberDecimal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"-->
 
 </RelativeLayout>
-
-<!--<FrameLayout
-    android:id="@+id/parent_layout"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="48dp"
-    android:background="?attr/selectableItemBackground"
-    android:clickable="true"
-    android:focusable="true">
-
-    <EditText
-        android:id="@+id/rateCount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginEnd="8dp"
-        android:inputType="numberDecimal"
-        android:maxWidth="128dp"
-        android:minWidth="64dp"/>
-
-    <TextView
-        android:id="@+id/rateName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start|center_vertical"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:textStyle="bold"
-        tools:text="EUR"/>
-</FrameLayout>-->
